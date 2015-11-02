@@ -78,8 +78,12 @@ section {
 }
 
 aside {
-    padding: 50px 0;
-    background-image: url(../img/aside.jpg);
+    /*padding: 50px 0;*/
+    padding: 150px 15px;
+    /*background-color: #f05f40;*/
+    background-image: 
+      linear-gradient(rgba(240,95,64,0.4), rgba(240,95,64,0.4)),
+      url(../img/aside.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
